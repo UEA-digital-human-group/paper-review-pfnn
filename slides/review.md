@@ -61,7 +61,7 @@ An external variable representing timing of the motion cycle
 
 --
 
-![pfnn](assets/fig2.jpg)
+![pfnn](../assets/fig2.jpg)
 
 The function which generates the weights of the regression network which performs the control task.
 
@@ -102,7 +102,7 @@ the expressiveness of the regression while retaining the compact structure.
 
 ## Input and Outputs
 
-![inputs](assets/input_output.jpg)
+![inputs](../assets/input_output.jpg)
 
 ---
 
