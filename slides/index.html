@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Slides</title>
+    <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="../reveal.js/dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="../reveal.js/plugin/highlight/monokai-sublime.css">
+</head>
+
+<body>
+
+    <div class="reveal">
+
+        <div class="slides">
+            <section data-markdown="review.md"  data-separator-notes="^Note:" data-separator="^\n---\n$" data-separator-vertical="^\n--\n$"> </section> 
+        </div>
+    </div>
+
+    <script src="../reveal.js/dist/reveal.js"></script>
+    <script src="../reveal.js/plugin/markdown/markdown.js"></script>
+    <script src="../reveal.js/plugin/highlight/highlight.js"></script>
+    <script src="../reveal.js/plugin/notes/notes.js"></script>
+
+    <script>
+        Reveal.initialize({
+            autoPlayMedia: true,
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            slideNumber: "c/t",
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+        });
+    </script>
+
+</body>
+
+</html>
